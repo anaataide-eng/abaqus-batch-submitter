@@ -14,3 +14,9 @@ Place the script in the working directory containing your Abaqus input files (`.
 ```bash
 python batch_submit_abaqus.py
 
+## Requirements
+- Python 3.x
+- Standard Python libraries (pathlib, subprocess, re, csv, os)
+- Access to a Linux HPC environment with Abaqus/SLURM scheduler
+
+_Author: Ana Beatriz Ataide | Mechanical Engineer & CAE Analyst_
